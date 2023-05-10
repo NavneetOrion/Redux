@@ -1,14 +1,17 @@
 import React from 'react'
-import { Provider } from 'react-redux'
-import store from './ReduxContainer/Store'
+import Navbar from './Navbar'
+import Shop from './Shop'
+
 
 const App = () => {
   return (
-    <Provider store={store}>
-    <div>
-      <h2>Welcome to React Redux</h2>
-    </div>
-    </Provider>
+    <>
+   <div >
+   <Navbar/>
+   <Shop/>
+
+   </div>
+   </>
   )
 }
 
